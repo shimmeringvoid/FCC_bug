@@ -17,3 +17,6 @@ The problematic command was used in the Keras documentation I was attempting to 
 on this page:  https://keras.io/preprocessing/image/ , 
 
 with the  heading:  "Example of transforming images and masks together."
+
+NOTE: The code has been modified to use a custom iterator, rather than flow_from_directory.
+      Now the code actually runs! 
